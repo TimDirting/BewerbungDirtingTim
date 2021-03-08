@@ -30,7 +30,7 @@ namespace BewerbungDirtingTim
             g = pictureBoxDesign.CreateGraphics();
             g1 = pictureBoxDesign2.CreateGraphics();
             g2 = pictureBoxKnight.CreateGraphics();
-            CBrush = new SolidBrush(Color.DodgerBlue);
+            CBrush = new SolidBrush(Color.Goldenrod);
             buttonPicture.BackgroundImageLayout = ImageLayout.Stretch;
             RunningPath  = Path.GetFullPath(Path.Combine(Application.StartupPath, @"../../"));
 
@@ -112,7 +112,7 @@ namespace BewerbungDirtingTim
         {
 
             richTextBoxInfo.BackColor = Color.White;
-            richTextBoxInfo.SelectionColor = Color.DodgerBlue;
+            richTextBoxInfo.SelectionColor = Color.Goldenrod;
             richTextBoxInfo.SelectionFont = new Font("Georgia", 32, FontStyle.Bold);
             richTextBoxInfo.SelectedText = "Tim Dirting\n ";
             richTextBoxInfo.SelectionFont = new Font("Arial", 14);
