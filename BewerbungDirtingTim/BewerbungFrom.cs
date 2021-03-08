@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -21,7 +22,7 @@ namespace BewerbungDirtingTim
         SolidBrush CBrush, ChessBrush;
         Font f = new Font("Arial", 12.0f);
         int sliderlen = 500;
-      
+        string RunningPath;
         public BewerbungsForm()
         {
             InitializeComponent();
@@ -31,7 +32,7 @@ namespace BewerbungDirtingTim
             g2 = pictureBoxKnight.CreateGraphics();
             CBrush = new SolidBrush(Color.DodgerBlue);
             buttonPicture.BackgroundImageLayout = ImageLayout.Stretch;
-
+            RunningPath  = Path.GetFullPath(Path.Combine(Application.StartupPath, @"../../"));
 
             rect = new Rectangle(0, 0, 0, 100);
 
@@ -40,27 +41,30 @@ namespace BewerbungDirtingTim
             Imagelist.Add(Properties.Resources.IMG_61);
 
             setupInfoBox();
-
+            
         }
 
         private void buttonLebenslauf_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("Lebenslauf.pdf");
+            
+            
+            System.Diagnostics.Process.Start(RunningPath + "/Properties/Lebenslauf.pdf");
         }
 
         private void buttonAnlagen_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("Anlagen.pdf");
+            System.Diagnostics.Process.Start(RunningPath + "/Properties/Anlagen.pdf");
         }
 
         private void buttonAnschreiben_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("Anschreiben.pdf");
+
+            System.Diagnostics.Process.Start(RunningPath + "/Properties/Anschreiben.pdf");
         }
 
         private void buttonBeispielCode_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("SortAlginC.exe");
+            System.Diagnostics.Process.Start(RunningPath + "/Properties/SortAlginC.exe");
         }
 
         private void buttonPicture_Click(object sender, EventArgs e)
@@ -110,7 +114,7 @@ namespace BewerbungDirtingTim
             richTextBoxInfo.BackColor = Color.White;
             richTextBoxInfo.SelectionColor = Color.DodgerBlue;
             richTextBoxInfo.SelectionFont = new Font("Georgia", 32, FontStyle.Bold);
-            richTextBoxInfo.SelectedText = "Tim Dirting\n";
+            richTextBoxInfo.SelectedText = "Tim Dirting\n ";
             richTextBoxInfo.SelectionFont = new Font("Arial", 14);
             richTextBoxInfo.SelectionColor = Color.LightSlateGray;
             richTextBoxInfo.SelectedText = "Kontaktdaten" + "\n";

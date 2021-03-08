@@ -63,6 +63,9 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Properties\Anlagen.pdf" />
+    <None Include="Properties\Anschreiben.pdf" />
+    <None Include="Properties\Lebenslauf.pdf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -85,12 +88,6 @@
     <Folder Include="bin\Debug\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Anschreiben01.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Anschreiben02.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Properties\white-cartoon-chess-horse-tile-knight-pieces-piece_f.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\IMG_62.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\SortAlginC.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

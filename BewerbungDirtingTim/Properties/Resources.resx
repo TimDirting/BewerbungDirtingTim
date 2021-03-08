@@ -118,11 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Anlagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Anlagen.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Anschreiben" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Anschreiben.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="IMG_61" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IMG_61.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG_62" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>IMG_62.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lebenslauf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Lebenslauf.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SortAlginC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>SortAlginC.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="white_cartoon_chess_horse_tile_knight_pieces_piece_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>white-cartoon-chess-horse-tile-knight-pieces-piece_f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -61,6 +61,26 @@ namespace BewerbungDirtingTim.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        /// </summary>
+        internal static byte[] Anlagen {
+            get {
+                object obj = ResourceManager.GetObject("Anlagen", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        /// </summary>
+        internal static byte[] Anschreiben {
+            get {
+                object obj = ResourceManager.GetObject("Anschreiben", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap IMG_61 {
@@ -77,6 +97,26 @@ namespace BewerbungDirtingTim.Properties {
             get {
                 object obj = ResourceManager.GetObject("IMG_62", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        /// </summary>
+        internal static byte[] Lebenslauf {
+            get {
+                object obj = ResourceManager.GetObject("Lebenslauf", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Byte[].
+        /// </summary>
+        internal static byte[] SortAlginC {
+            get {
+                object obj = ResourceManager.GetObject("SortAlginC", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
