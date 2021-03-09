@@ -114,7 +114,7 @@ namespace BewerbungDirtingTim
             richTextBoxInfo.BackColor = Color.White;
             richTextBoxInfo.SelectionColor = Color.DodgerBlue;
             richTextBoxInfo.SelectionFont = new Font("Georgia", 32, FontStyle.Bold);
-            richTextBoxInfo.SelectedText = "Tim Dirting\n ";
+            richTextBoxInfo.SelectedText = "Tim Dirting\n";
             richTextBoxInfo.SelectionFont = new Font("Arial", 14);
             richTextBoxInfo.SelectionColor = Color.LightSlateGray;
             richTextBoxInfo.SelectedText = "Kontaktdaten" + "\n";
